@@ -1,0 +1,87 @@
+
+body {
+  background-color: #ffffff;
+  color: purple;
+  font-family : cursive;
+  background-image: url(Vc7WtVjku7nJdyxcGT4Qme2qwR4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+form {
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 900px;
+  height: 800px;
+  margin: auto;
+  background-color : none;
+}
+
+a,a:hover, a:visited, a:active {
+   color: #01117E;
+   font-weight: bold;
+  text-decoration: none;
+}
+
+.calcul {
+  font-size: 35px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.center{
+    text-align: center;
+}
+
+.code
+{
+    position: relative;
+    left: 110px;
+    top : 200px;
+}
+
+.input {
+ padding:3px;
+ width:65px;
+ border:1px solid #F5C5C5;
+
+ box-shadow:1px 1px 2px #C0C0C0 inset;
+ font-family: inherit;
+ margin: 50px;
+ }
+
+.score{
+  font-size: 20px;
+  font-family: inherit;
+  font-weight: bold;
+ }
+
+.submit {
+  font-size: 25px;
+  height: 44px;
+  border: none;
+  width: 25%;
+  background: #696969;
+  font-family: inherit;
+  font-weight: bold;
+  color: inherit;
+  letter-spacing: 1px;
+  border-radius: 15px 50px 15px 50px;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+  
+
+.submit:hover  {
+  background: #4682B4;
+}
+
+  
+
+input:focus {
+  outline: none;
+  outline: 2px solid #F34614;
+  box-shadow: 0 0 2px #F34614;
+}
